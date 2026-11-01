@@ -58,12 +58,13 @@ Misma cara que la foto 02, rotada y sin las cintas negras. Se agrega:
 
 ## Pendiente
 
+- [ ] Prueba de los botones de borde con el USB-C conectado a la PC (ver guía).
+
 - [ ] Primeros planos de la **fila de 5–6 pads** del borde inferior del lado B
       y de los pads alrededor del pulsador.
 - [ ] Leer la **etiqueta blanca** del lado B.
 - [ ] Levantar con cuidado una esquina de la **lámina negra** para leer el procesador.
 - [ ] Primer plano del chip de 8 patas (lado A) y del chip chico con cristal.
-- [ ] Seguir el cable de la **placa verde**: ¿es la antena FM o el micrófono?
 
 ## Antenas (`fotos/05-antena-wifi-2.4-5.8ghz.jpg`)
 
@@ -72,5 +73,23 @@ Misma cara que la foto 02, rotada y sin las cintas negras. Se agrega:
   (se lee espejada en la foto). Es la **antena WiFi doble banda**: por ahí viaja
   Android Auto inalámbrico (WiFi 5 GHz). **No es el FM.** No desconectarla.
 - Una antena de FM (88–108 MHz) necesita un conductor mucho más largo. Candidatos:
-  el cable rojo que va a la placa verde, una pista de la placa, o el propio cable
-  de alimentación (muchos transmisores FM baratos lo usan como antena).
+  una pista de la placa, un contacto a resorte contra la carcasa, o el propio
+  cable de alimentación (muchos transmisores FM baratos lo usan como antena).
+
+## Placa verde y botones de borde (`fotos/06-botones-de-borde.jpg`)
+
+- Los cables rojo/negro de la **placa verde** terminan en los pads `KEY+` / `KEY-`
+  (`按键` = "botón"). La placa verde es la **botonera física** del borde de la
+  carcasa. **No es la antena FM** (descartado).
+- Hay **dos pulsadores laterales soldados en los bordes de la placa** que no
+  coinciden con ningún botón de la carcasa:
+  1. Arriba, al lado de los pads `KEY+`/`KEY-`.
+  2. Borde izquierdo, entre el conector `TP` y el cuadrado dorado que está junto
+     al jack AUX.
+- Botones así, sin acceso desde afuera, suelen ser de fábrica: **reset** y
+  **boot/recovery** (mantenerlo apretado al encender pone al procesador en modo
+  de grabación por USB). Si uno es boot, al enchufar el USB-C a una PC en ese
+  modo aparece un dispositivo cuyo **VID/PID identifica la marca del
+  procesador** sin soldar nada.
+- El cuadrado dorado grande junto al jack AUX podría ser un contacto a resorte
+  (¿antena?) o un pad de masa. A confirmar.
