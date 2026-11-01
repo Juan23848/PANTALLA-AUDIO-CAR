@@ -63,4 +63,14 @@ Misma cara que la foto 02, rotada y sin las cintas negras. Se agrega:
 - [ ] Leer la **etiqueta blanca** del lado B.
 - [ ] Levantar con cuidado una esquina de la **lámina negra** para leer el procesador.
 - [ ] Primer plano del chip de 8 patas (lado A) y del chip chico con cristal.
-- [ ] Seguir el cable de la **placa verde** y del conector `U.FL`: ¿uno es la antena FM?
+- [ ] Seguir el cable de la **placa verde**: ¿es la antena FM o el micrófono?
+
+## Antenas (`fotos/05-antena-wifi-2.4-5.8ghz.jpg`)
+
+- El cable negro fino con ficha `U.FL` (junto al módulo blindado del lado A) va a
+  una antena plana pegada en la carcasa, con la inscripción **`2.4/5.8GHZ`**
+  (se lee espejada en la foto). Es la **antena WiFi doble banda**: por ahí viaja
+  Android Auto inalámbrico (WiFi 5 GHz). **No es el FM.** No desconectarla.
+- Una antena de FM (88–108 MHz) necesita un conductor mucho más largo. Candidatos:
+  el cable rojo que va a la placa verde, una pista de la placa, o el propio cable
+  de alimentación (muchos transmisores FM baratos lo usan como antena).
