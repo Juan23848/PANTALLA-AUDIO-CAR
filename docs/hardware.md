@@ -93,3 +93,15 @@ Misma cara que la foto 02, rotada y sin las cintas negras. Se agrega:
   procesador** sin soldar nada.
 - El cuadrado dorado grande junto al jack AUX podría ser un contacto a resorte
   (¿antena?) o un pad de masa. A confirmar.
+
+## Interfaz del equipo (`fotos/07-pantalla-principal-alimentada-por-usb-pc.jpg`)
+
+- **Arranca alimentada solo desde un USB de PC** (5 V), hasta la pantalla principal.
+- Pantalla principal (en español): reproductor ("No jugar" = nada sonando),
+  **Apple CarPlay**, **Android Auto**, **AirPlay** y **"Salida de audio"**.
+- Barra superior: íconos **FM**, WiFi (punto de acceso) y Bluetooth.
+- Barra inferior: apagar, brillo, parlante/teléfono, **FM**, configuración.
+- **Dato clave:** sin celular conectado, el FM aparece **disponible** en la
+  pantalla principal. El bloqueo aparece cuando entra Android Auto. Es decir, es
+  una decisión del firmware durante la sesión de Android Auto, no una falla del
+  chip de FM.
