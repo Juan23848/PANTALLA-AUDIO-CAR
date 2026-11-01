@@ -28,3 +28,4 @@ de la flash.**
 ## Documentación
 
 - [`docs/hardware.md`](docs/hardware.md): lo que sabemos del hardware hasta ahora.
+- [`docs/firmware.md`](docs/firmware.md): versión, plataforma T86 y vía de actualización por microSD.
