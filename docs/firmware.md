@@ -56,3 +56,23 @@ T86MP5 en manuals.plus / device.report.
    durante Android Auto, y qué controla el chip de FM.
 3. Recién con eso, decidir: grabar una versión más nueva tal cual, o una
    versión modificada que deje el FM activo durante Android Auto.
+
+## Hallazgo: el procesador es Allwinner
+
+En el hilo de XDA (página 2, post #29, julio 2026), un dueño de una **Lamtto RC14**
+(misma familia T86) comparte dos firmwares oficiales y la herramienta
+**PhoenixCard 4.2.7** para grabarlos. PhoenixCard es la herramienta oficial de
+**Allwinner** para grabar firmware desde una microSD. Conclusión: la placa T86
+lleva un **procesador Allwinner**, y los `.img` están en el formato de imagen de
+Allwinner, que está documentado y se puede desarmar.
+
+Firmwares de la RC14 (configuración `M61_CPAPAAMC`, 1600×600, **no compatibles
+para grabar en la RC04**, que es `M28_CPAPAA` 1024×600; sirven para analizar la
+plataforma):
+
+- `T86PRO1_1026_JINMAI_1600X600M61_CPAPAAMC_20240402_V1_JM EN`
+- `T86PRO1_1026_JINMAI_1600X600M61_CPAPAAMC_20250415_V1` (en un `.zip` en Google Drive)
+
+Estructura del nombre: `T86PRO1` (placa) `_1026` (¿plataforma?) `_JINMAI`
+(fabricante) `_1600X600` (resolución) `M61` (configuración) `_CPAPAAMC`
+(CarPlay + Android Auto + ¿MC?) `_20250415` (fecha) `_V1`.
